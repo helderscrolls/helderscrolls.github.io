@@ -1,12 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <title>Find the Precious</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="testStyle.css" />
-    <title>findThePrecious</title>
+
+    <link rel="shortcut icon" href="https://www.favicon-generator.org/download/2018-02-14/f1b21bbc23d0f9fd1f7220ca4e3e0fb0.ico" type="image/x-icon" />
+    <link rel="icon" href="https://www.favicon-generator.org/download/2018-02-14/f1b21bbc23d0f9fd1f7220ca4e3e0fb0.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -15,20 +18,35 @@
     <!--#            Navigation Bar           # -->
     <!--####################################### -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">FindThePrecious.com</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Fellows</a>
-                <a class="nav-item nav-link" href="#">The Ring</a>
-                <a class="nav-item nav-link" href="#">Get my reward</a>
-                <a class="nav-item nav-link" href="#">Best hunters</a>
-                <a class="nav-item nav-link" href="#">Join the army</a>
-                <a class="nav-item nav-link" href="#">Contact us</a>
-            </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#fellows">Fellows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#theRing">The Ring</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#getMyReward">Reward</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bestHunters">Hunters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#joinTheArmy">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactUs">Contact</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -41,8 +59,8 @@
             <div class="carousel-item active">
                 <img class="d-block w-100" src="dark_vador.jpg" alt="Dark Vador">
                 <div class="carousel-caption d-none d-sm-block">
-                    <h5>Dangerous fellowship try to destroy the ring</h5>
-                    <p>Orcs, Goblins, Balrogs, protect your master Sauron!</p>
+                    <h5>Sauron is a very good bro,</h5>
+                    <p>Please help him find the ring. - D.V.</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -78,7 +96,7 @@
 
         <section id="fellows">
             <header class="row">
-                <h2><span class="elveSymbol">W</span> Fellows wanted dead <span class="elveSymbol">W</span> <em> (or alive if you want to eat them later)</em></h2>
+                <h2><span class="elveSymbol">ij</span> Fellows wanted dead <em>(or alive if you want to eat them later)</em><span class="elveSymbol"> ij</span></h2>
             </header>
             <ul class="nav nav-tabs row flex-column flex-lg-row" id="myTab" role="tablist">
                 <li class="nav-item">
@@ -151,7 +169,7 @@
                 </div>
             </div>
             <div class="row">
-                <a href="#contactUs" class="btn btn-custom-red active mx-auto d-block" role="button" aria-pressed="true">Contact us</a>
+                <a href="#contactUs" class="btn btn-custom-orange active mx-auto d-block" role="button" aria-pressed="true">Contact us</a>
             </div>
         </section>
 
@@ -246,11 +264,11 @@
             </header>
             <div class="row">
                 <p class="col-12 col-sm-9">Et est admodum mirum videre plebem innumeram mentibus ardore quodam infuso cum dimicationum curulium eventu pendentem. haec similiaque memorabile nihil vel serium agi Romae permittunt. ergo redeundum ad textum.</p>
-                <!-- <div class="col-6 offset-3 col-sm-3 offset-sm-0 armyPic joinIllustration"></div> -->
+                <div class="col-6 offset-3 col-sm-3 offset-sm-0 armyPic joinIllustration"></div>
             </div>
             <div class="row contactUsBtn">
                 <div class="col-6 offset-3 col-sm-5 offset-sm-1 sauronPic joinIllustration"></div>
-                <a href="#contactUs" class="btn btn-custom-red active mx-auto d-block col-6 offset-3 col-sm-4 offset-sm-1" role="button" aria-pressed="true">Contact us</a>
+                <a href="#contactUs" class="btn btn-custom-orange active mx-auto d-block col-6 offset-3 col-sm-4 offset-sm-1" role="button" aria-pressed="true">Contact us</a>
             </div>
         </section>
 
@@ -304,16 +322,19 @@
                 <ul>
                     <li><a href="">Sauron4Ever.com</a></li>
                     <li><a href="">Follow him also on Twitter</a></li>
+                    <li>
+                        <a href="#"><img src="logo.png" alt="logo"></a>
+                    </li>
                 </ul>
             </div>
         </footer>
     </div>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Javascript de FontAwesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </body>
 
 </html>

@@ -1,14 +1,37 @@
 /* -------------------------------------- */
 /* Default Fonts                          */
 /* -------------------------------------- */
+@font-face {
+    font-family: "anironcregular";
+    src: url("fonts/aniron-webfont.woff2") format("woff2"),
+         url("fonts/aniron-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "party_businessregular";
+    src: url("fonts/partybusiness-webfont.woff2") format("woff2"),
+         url("fonts/partybusiness-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "tengwar_annatarbold";
+    src: url("fonts/tnganb-webfont.woff2") format("woff2"),
+         url("fonts/tnganb-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
-  font-family: Arial, serif;
+  font-family: party_businessregular, Arial, serif;
   font-size: calc(1rem + 1vw);
 }
 
 h1, h2, h3, h5, .nav-link {
-  font-family: Arial, serif;
+  font-family: anironcregular, Arial, serif;
 }
 
 h2 {
@@ -18,6 +41,7 @@ h2 {
 
 h2 .elveSymbol {
   color: orange;
+  font-family: tengwar_annatarbold;
 }
 
 /* -------------------------------------- */
@@ -25,18 +49,18 @@ h2 .elveSymbol {
 /* -------------------------------------- */
 
 .navbar.navbar-expand-lg .nav-link {
-  /*color: white;*/
-  font-family: Arial, serif;
+  color: white;
+  font-family: "anironcregular", Arial, serif;
   font-size: 17px;
 }
 
 .navbar.navbar-expand-lg .nav-link:hover{
-  /*color: white;*/
+  color: white;
   text-decoration: underline white;
 }
 
 .navbar.navbar-expand-lg {
-  /*background-color: #FF7700;*/
+  background-color: #FF7700;
 }
 
 .navbar.navbar-expand-lg .navbar-nav, .nav-item {
@@ -44,7 +68,7 @@ h2 .elveSymbol {
 }
 
 .navbar.navbar-expand-lg .fa-bars{
-  /*color: white;*/
+  color: white;
 }
 
 /* -------------------------------------- */
@@ -112,8 +136,8 @@ h2 em {
 }
 
 .nav.nav-tabs .nav-item .nav-link.active {
-  color: red;
-  text-decoration: underline red;
+  color: orange;
+  text-decoration: underline orange;
 }
 
 .nav.nav-tabs .nav-item .nav-link .elveSymbol {
@@ -123,6 +147,7 @@ h2 em {
 .nav.nav-tabs .nav-item .nav-link.active .elveSymbol {
   display: inline;
   color: orange;
+  font-family: tengwar_annatarbold;
 }
 
 /* Wanted cards */
@@ -193,7 +218,7 @@ h2 em {
 }
 
 .wantedPic.disabled .description h3 {
-  text-decoration: line-through red;
+  text-decoration: line-through #FF7700;
 }
 
 .reward {
@@ -210,7 +235,7 @@ h2 em {
 }
 
 .wantedPic.disabled .reward p {
-  color: red;
+  color: #FF7700;
   font-size: 2.5em;
   text-align: center;
   margin-top: 20px;
@@ -229,12 +254,12 @@ h2 em {
 /* Section Get My Reward                  */
 /* -------------------------------------- */
 
-.btn.btn-custom-red.active {
-  color: red;
+.btn.btn-custom-orange.active {
+  color: #FF7700;
   background-color: white;
   border: none;
   font-size: 30px;
-  font-family: Arial, serif;
+  font-family: anironcregular, Arial, serif;
 }
 
 .coin {
@@ -249,19 +274,19 @@ h2 em {
 /* -------------------------------------- */
 
 .media-body h3 {
-  color: red;
+  color: #FF7700;
   font-size: 1.5rem;
 }
 
 .media-body p:first-of-type a {
-  color: blue;
+  color: black;
   text-decoration: underline;
 }
 
 .media-body .btn.btn-custom-like.active {
   background-color: #2B2B2B;
   border: none;
-  color: white;
+  color: #FF7700;
   font-size: 25px;
 }
 
@@ -276,7 +301,7 @@ h2 em {
   flex-direction: column;
   padding: 0;
   border-radius: 10px 10px 0 0;
-  border-bottom: red solid 3px;
+  border-bottom: #FF7700 solid 3px;
   margin: 0 20px 20px 20px;
   background-color: #EDEDED;
   color: #2B2B2B;
@@ -285,7 +310,7 @@ h2 em {
 #theRing article header {
   padding-left: 10px;
   border-radius: 10px 10px 0 0;
-  background-color: red;
+  background-color: #FF7700;
   color: white;
 }
 
@@ -366,7 +391,7 @@ tr:nth-child(odd) {
 }
 
 .sauronPic {
-  /*background: url("weneedyou-1.png") center no-repeat;*/
+  background: url("weneedyou-1.png") center no-repeat;
   background-size: contain;
 }
 
@@ -423,7 +448,7 @@ tr:nth-child(odd) {
 /* -------------------------------------- */
 
 footer.row {
-  background-color: red;
+  background-color: #FF7700;
   margin: 0;
 
 }
